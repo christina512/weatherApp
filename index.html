@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex justify-content-between align-items-center py-4">
+            <a href="#" class="d-flex justify-content-center align-items-center text-decoration-none text-white">
+                <img src="logo.png" class="me-2" alt="">
+                <div>
+                    <h4>Weather</h4>
+                    <p>tagline goes here</p>
+                </div>
+            </a>
+            
+            <ul class="d-flex justify-content-center align-items-center list-unstyled ">
+                <li class="active"><a href="" class="text-decoration-none text-white p-4 ">Home</a></li>
+                <li><a href="" class="text-decoration-none text-white p-4">News</a></li>
+                <li><a href="" class="text-decoration-none text-white p-4">Live cameras</a></li>
+                <li><a href="" class="text-decoration-none text-white p-4">Photos</a></li>
+                <li><a href="contact.html" class="text-decoration-none text-white p-4">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+    <section class="py-5" id="home">
+        <div class="container">
+            <div class="input-group ">
+                <input id="city" type="text" class="form-control rounded-start-5 find-input "
+                    placeholder="Enter your location">
+                    <!-- <input id="city" type="text" class="form-control rounded-start-5 find-input "
+                    placeholder="Enter your location" oninput="getWeather()"> -->
+                <button class="btn   find-btn rounded-end-5" type="button" onclick="getWeather()">Find</button>
+            </div>
+
+            <div class="row g-0 justify-content-center align-items-center py-5" id="weather-table">
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="input-group ">
+                        <input type="text" class="form-control rounded-start-5 find-input"
+                            placeholder="Enter your Email to subscribe">
+                        <button class="btn   find-btn rounded-end-5" type="button">Subscribe</button>
+                    </div>
+                    <p  class="text-white py-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+
+                <div class="col-4 py-5">
+                    <div class="d-flex justify-content-center align-items-center icons-links">
+                        <a class="d-flex justify-content-center align-items-center text-decoration-none me-2"  href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a  class="d-flex justify-content-center align-items-center text-decoration-none me-2" href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a class="d-flex justify-content-center align-items-center text-decoration-none me-2"  href=""><i class="fa-brands fa-google-plus"></i></a>
+                        <a class="d-flex justify-content-center align-items-center text-decoration-none me-2"  href=""><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

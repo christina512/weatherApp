@@ -1,0 +1,187 @@
+body{
+    background-color: #1e202b;
+}
+
+img{
+    width: 64px;
+    height: 38px;
+}
+
+header h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 12px;
+}
+header div{
+    line-height: 10px;
+}
+section{
+    background-image:url(../banner.png) ;
+    background-size: cover;
+}
+
+.find-btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    background-color: #23a5f0;
+}
+
+.find-btn:hover {
+    color: white;
+    background-color: #23a5f0;
+}
+
+.find-input{
+    background-color: #1e202b;
+color: white;
+border: none;
+padding: 15px;
+}
+
+.find-input:focus{
+    background-color: #1e202b;
+    color: white;
+    box-shadow: none;
+}
+.find-input::placeholder{
+    color: white;
+    opacity: 0.7;
+    padding-left: 10px;
+}
+
+
+.icons-links a {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #1e202b;
+    color:#23a5f0;
+    text-align: center;
+    font-size: large;
+
+}
+
+.icons-links a:hover{
+    background-color: #23a5f0;
+    color: white;
+}
+
+.header{
+    background-color: #2e313f;
+    color: #bfc1c8;
+}
+.weather{
+    background-color:#424655;
+    color: white;
+    height: 400px;
+}
+.day{
+    padding: 10px;
+}
+.date{
+    padding: 10px;
+}
+
+.weather2{
+    background-color: #2e313f;
+    color: white;
+    height: 400px;
+}
+.header2{
+     background-color:#424655;
+    color: #bfc1c8;
+
+}
+
+.degree{
+    font-size: 80px;
+    font-weight: 800;
+}
+
+li:hover{
+    border:2px solid  #23a5f0;
+    border-radius: 30px;
+    /* color: #23a5f0; */
+
+}
+.active{
+    border:2px solid  #23a5f0;
+    border-radius: 30px;
+   
+}
+
+#city-name{
+    color: #bfc1c8;
+    font-size: 18px;
+}
+
+.div-icons{
+    color:#bfc1c8;
+}
+
+.max-temp{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #2e313f;
+
+}
+
+.contact-home{
+    color: #bfc1c8;
+}
+
+.contact{
+    background-color: #2e313f;
+}
+.left-side{
+   background-color: #2e313f; 
+   margin-top: 50px;
+   color: white;
+}
+.spacing{
+    padding-top: 200px;
+}
+.spacing p{
+    font-size: 12px;
+    padding-top: 8px;
+}
+.line{
+    line-height: 0px;
+}
+
+.right-side{
+    color: white;
+    margin-top: 50px;
+}
+
+.right-side input, textarea{
+    background-color: transparent;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #2e313f;
+    border-radius: 30px;
+    color: white;
+}
+
+.right-side input:hover{
+    border: 2px solid #23a5f0;
+}
+.right-side input:focus{
+    border: 2px solid #23a5f0;
+}
+textarea:hover{
+    border: 2px solid #23a5f0;
+}
+textarea:focus{
+    border: 2px solid #23a5f0;
+}
+
